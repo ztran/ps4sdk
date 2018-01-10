@@ -267,6 +267,9 @@ sceKernelAddUserEvent \
 sceKernelAllocateDirectMemory \
 sceKernelCreateEqueue \
 sceKernelDeleteEqueue \
+sceKernelJitCreateAliasOfSharedMemory \
+sceKernelJitCreateSharedMemory \
+sceKernelJitMapSharedMemory \
 sceKernelWaitEqueue \
 sceKernelDlsym \
 sceKernelGetDirectMemorySize \
@@ -275,9 +278,6 @@ sceKernelGetModuleInfo \
 sceKernelGetModuleList \
 sceKernelGetProcessTime \
 sceKernelGettimeofday \
-sceKernelJitCreateAliasOfSharedMemory \
-sceKernelJitCreateSharedMemory \
-sceKernelJitMapSharedMemory \
 sceKernelLoadStartModule \
 sceKernelMapDirectMemory \
 sceKernelSleep \
@@ -365,7 +365,6 @@ symlink \
 symlinkat \
 sync \
 sysarch \
-syscall \
 sysconf \
 sysctl \
 sysctlbyname \
